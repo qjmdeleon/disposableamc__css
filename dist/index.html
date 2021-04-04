@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Third Party Stylesheet Helpers -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"
+    ></script>
+    <title>Ace Medical Test</title>
+  </head>
+  <body>
+    <!-- Top Navigation -->
+    <div class="amc-nav top-nav primary-color">
+      <div class="top-nav-text flex flex-column padding-nav text-center">
+        <div class="top-nav-1 flex flex-1 align-center p-left">
+          <div class="text-item-1 light-text">
+            <h4 class="mini-font">
+              <i class="fas fa-phone fa-1x"></i> Emergency Line: 366 - 0000 to
+              05
+            </h4>
+          </div>
+          <div class="text-item-2 light-text">
+            <h4 class="mini-font">
+              <i class="fas fa-location fa-1x"></i> Location: 548 Mc. Arthur St.
+              Malanday Quezon City
+            </h4>
+          </div>
+        </div>
+        <div class="social-links flex">
+          <ul class="social-list flex" style="list-style: none">
+            <li>
+              <img style="width: 50%" src="assets/img/facebook.png" alt="" />
+            </li>
+            <li>
+              <img style="width: 50%" src="assets/img/twitter.png" alt="" />
+            </li>
+            <li>
+              <img style="width: 50%" src="assets/img/instagram.png" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="top-nav-search flex p-right">
+          <input type="text" placeholder="Quick Search.." />
+          <img loading="lazy" src="assets/img/Search.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Main Navigation -->
+    <div class="main-nav flex breather">
+      <div class="main-nav-logo flex-1">
+        <img
+          loading="lazy"
+          class="small-resize"
+          src="assets/svg/logo.svg"
+          alt=""
+        />
+      </div>
+      <div class="main-nav-items">
+        <ul class="flex" style="list-style: none">
+          <li class="">ABOUT US</li>
+          <li class="">SERVICES</li>
+          <li class="">PATIENT'S GUIDE</li>
+          <li class="">NEWS INFO</li>
+          <li class="">
+            <button class="primary-button mini-breather light-text nav-button">
+              SIGN UP or LOGIN
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="main-nav-burger flex flex-1 justify-end p-top mt-1">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Patient's Guide</a>
+            <a href="#">News and Health Info</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+    </div>
+    <!-- Section - 1 -->
+    <div class="section-1">
+      <div class="slider-items owl-carousel">
+        <div
+          style="background-image: url(assets/img/banner1.jpg)"
+          class="slider-item"
+          loading="lazy"
+        >
+          <div class="text-container-main light-text">
+            <h2 style="font-weight: 400" class="big-font p-bottom">
+              ONLY THE BEST <br /><span class="heavy"
+                >IN PROVIDING <br />
+                MEDICAL SERVICE</span
+              >
+            </h2>
+            <p class="mb-1 mt-1 p-right">
+              Lorem ipsum dolor sit amet consectetur adipisicing <br />elit.
+              Unde, magni quo. Assumenda repudiandae, earum <br />non
+              praesentium unde voluptatum architecto quidem.
+            </p>
+            <button class="primary-button light-text breather mt-2">
+              SCHEDULE AN APPOINTMENT
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Section -->
+    <div class="section-2 breather">
+      <div class="section-2-header center-header mt-2 text-center">
+        <h1>ONLINE <span>SERVICES</span></h1>
+      </div>
+
+      <div
+        class="section-2-cards mb-1 owl-carousel owl-theme flex flex-column breather"
+        id="section2-slider"
+      >
+        <div class="card-item mt-2">
+          <div class="card-image-1"></div>
+          <div class="card-content light-text breather text-center">
+            <h3>BOOK ONLINE SERVICE</h3>
+          </div>
+        </div>
+        <div class="card-item mt-2">
+          <div class="card-image-2"></div>
+          <div class="card-content light-text breather text-center">
+            <h3>BOOK CONSULTATION</h3>
+          </div>
+        </div>
+        <div class="card-item mt-2">
+          <div class="card-image-3"></div>
+          <div class="card-content light-text breather text-center">
+            <h3>FIND A DOCTOR</h3>
+          </div>
+        </div>
+        <div class="card-item mt-2">
+          <div class="card-image-4"></div>
+          <div class="card-content light-text breather text-center">
+            <h3>PATIENT PORTAL</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third section -->
+
+    <div class="section-3 mb-1">
+      <div
+        class="section-3-banner"
+        style="background-image: url('assets/img/sdsd.jpg')"
+        loading="lazy"
+      >
+        <div class="text-container-main light-text text-center">
+          <h1 class="semi-large-font mb-1">COVID - 19</h1>
+          <h3 class="mb-1 mt-2">
+            Visitor Information and Safety of ACE Medical Valenzuela
+          </h3>
+          <div class="two-buttons mt-max flex justify-center">
+            <button class="primary-button light-text breather mr-1">
+              READ MORE
+            </button>
+            <button class="secondary-button dark-text breather">
+              COVID UPDATE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Section -->
+    <div class="section-4 mt-2">
+      <div class="section-4-pair">
+        <div class="section-4-text-content breather-max">
+          <h1 class="mb-1"><span style="font-weight: 300">OUR</span> STORY</h1>
+          <p class="first-pair-text">
+            The ACEMC-Valenzuela was conceptualized when the local Medical
+            Practitioners in the area saw the need to set up a state of the art
+            medical facility, to serve the existing community and locators in
+            the Valenzuela areas and the local population of neighboring towns
+            of Bulacan and Metro Manila.
+          </p>
+          <button
+            class="first-pair-button primary-button light-text breather mt-2"
+          >
+            READ MORE
+          </button>
+        </div>
+        <div class="section-4-img-content mt-1"></div>
+      </div>
+      <div class="section-4-pair">
+        <div
+          class="section-4-text-content breather-max"
+          style="text-align: right"
+        >
+          <h1 class="mb-1">
+            <span style="font-weight: 300">NEW</span> AND IMPROVED
+          </h1>
+          <p class="second-pair-text">
+            The ACEMC-Valenzuela was conceptualized when the local Medical
+            Practitioners in the area saw the need to set up a state of the art
+            medical facility, to serve the existing community and locators in
+            the Valenzuela areas and the local population of neighboring towns
+            of Bulacan and Metro Manila.
+          </p>
+          <button
+            class="second-pair-button primary-button light-text breather mt-2"
+          >
+            READ MORE
+          </button>
+        </div>
+        <div class="section-4-img-content-2 mt-1"></div>
+      </div>
+    </div>
+
+    <!-- Section-5 -->
+    <div class="section-5 mt-max mb-1">
+      <div
+        class="section-5-cards flex flex-column breather owl-carousel owl-theme"
+      >
+        <div class="card-item breather">
+          <div class="card-img-1"></div>
+          <div class="card-content-2 mt-1">
+            <h1 class="big-font" style="font-weight: 700">MRI</h1>
+            <p style="font-size: 0.9rem" class="mt-1 mb-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique fuga soluta deserunt adipisci facere asperiores!
+            </p>
+            <div class="card-button flex justify-end">
+              <button class="primary-button light-text breather mt-1">
+                BOOK NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-item breather">
+          <div class="card-img-2"></div>
+          <div class="card-content-2 mt-1">
+            <h1 class="big-font" style="font-weight: 700">CT SCAN</h1>
+            <p style="font-size: 0.9rem" class="mt-1 mb-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique fuga soluta deserunt adipisci facere asperiores!
+            </p>
+            <div class="card-button flex justify-end">
+              <button class="primary-button light-text breather mt-1">
+                BOOK NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-item breather">
+          <div class="card-img-3"></div>
+          <div class="card-content-2 mt-1">
+            <h1 class="big-font" style="font-weight: 700">SWAB TEST</h1>
+            <p style="font-size: 0.9rem" class="mt-1 mb-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Similique fuga soluta deserunt adipisci facere asperiores!
+            </p>
+            <div class="card-button flex justify-end">
+              <button class="primary-button light-text breather mt-1">
+                BOOK NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section-6 -->
+    <div class="section-6 mt-2 mb-1">
+      <div class="section-6-banner-1 breather">
+        <h1 class="semi-large-font light-text text-center">PATIENT'S GUIDE</h1>
+        <ul class="patient-list flex flex-column breather">
+          <li class="flex flex-column text-center light-text">
+            <div class="list-img-container flex justify-center">
+              <img
+                loading="lazy"
+                class="mt-2 mb-1"
+                src=" assets/svg/patient-admission.svg"
+                alt=""
+                style="width: 30%"
+              />
+            </div>
+            <h2 class="mt-1 mb-1">PATIENT ADMISSION</h2>
+            <p class="mt-1 mb-1 p-left p-right">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+              necessitatibus doloribus maiores corrupti vitae numquam?
+            </p>
+          </li>
+          <li class="flex flex-column text-center light-text">
+            <div class="list-img-container flex justify-center">
+              <img
+                loading="lazy"
+                class="mt-2 mb-1"
+                src=" assets/svg/safety-protocols.svg"
+                alt=""
+                style="width: 30%"
+              />
+            </div>
+            <h2 class="mt-1 mb-1">PATIENT ADMISSION</h2>
+            <p class="mt-1 mb-1 p-left p-right">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+              necessitatibus doloribus maiores corrupti vitae numquam?
+            </p>
+          </li>
+          <li class="flex flex-column text-center light-text">
+            <div class="list-img-container flex justify-center">
+              <img
+                loading="lazy"
+                class="mt-2 mb-1"
+                src=" assets/svg/visitors-information.svg"
+                alt=""
+                style="width: 30%"
+              />
+            </div>
+            <h2 class="mt-1 mb-1">PATIENT ADMISSION</h2>
+            <p class="mt-1 mb-1 p-left p-right">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+              necessitatibus doloribus maiores corrupti vitae numquam?
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section-6-banner-2 breather text-center">
+        <div class="section-6-headline-container flex mt-2 mb-1 justify-center">
+          <i class="fas fa-phone fa-2x"></i>
+          <h2 style="font-weight: 300">&nbsp; CALL FOR AN EMERGENCY SERVICE</h2>
+        </div>
+        <h1 class="mt-1 mb-1">(02) 366 - 0000 to 05</h1>
+      </div>
+    </div>
+    <hr />
+    <!-- Section 7 -->
+    <div class="section-7 mt-2 mb-1 breather">
+      <h1 class="big-font p-left" style="font-weight: 800">
+        LATEST NEWS <br />
+        AND HEALTH INFORMATION
+      </h1>
+      <div
+        class="section-7-cards flex flex-column breather owl-carousel owl-theme"
+      >
+        <div class="card-item breather mt-2" style="width: 450px">
+          <div class="section-7-card-img-2"></div>
+          <div class="section-7-card-content breather">
+            <h2>Shelter Amidst the<br />Growing Pandemic</h2>
+            <span class="mini-font" style="color: grey"
+              ><i>Written by Jay Antonio</i></span
+            >
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              vel minus voluptatum adipisci eaque quis. Itaque excepturi sed
+              quod eaque molestiae nobis, tenetur ut nemo...
+            </p>
+            <button class="primary-button breather light-text mt-2 mb-1">
+              READ MORE
+            </button>
+          </div>
+        </div>
+        <div class="card-item breather mt-2" style="width: 450px">
+          <div class="section-7-card-img-3"></div>
+          <div class="section-7-card-content breather">
+            <h2>Novel Coronavirus <br />Spreads thru Asia</h2>
+            <span class="mini-font" style="color: grey"
+              ><i>Written by Jay Antonio</i></span
+            >
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              vel minus voluptatum adipisci eaque quis. Itaque excepturi sed
+              quod eaque molestiae nobis, tenetur ut nemo...
+            </p>
+            <button class="primary-button breather light-text mt-2 mb-1">
+              READ MORE
+            </button>
+          </div>
+        </div>
+        <div class="card-item breather mt-2" style="width: 450px">
+          <div class="section-7-card-img-1"></div>
+          <div class="section-7-card-content breather">
+            <h2>Novel Coronavirus <br />Spreads thru Asia</h2>
+            <span class="mini-font" style="color: grey"
+              ><i>Written by Jay Antonio</i></span
+            >
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              vel minus voluptatum adipisci eaque quis. Itaque excepturi sed
+              quod eaque molestiae nobis, tenetur ut nemo...
+            </p>
+            <button class="primary-button breather light-text mt-2 mb-1">
+              READ MORE
+            </button>
+          </div>
+        </div>
+        <div class="card-item breather mt-2" style="width: 450px">
+          <div class="section-7-card-img-1"></div>
+          <div class="section-7-card-content breather">
+            <h2>Novel Coronavirus <br />Spreads thru Asia</h2>
+            <span class="mini-font" style="color: grey"
+              ><i>Written by Jay Antonio</i></span
+            >
+            <p class="mt-1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              vel minus voluptatum adipisci eaque quis. Itaque excepturi sed
+              quod eaque molestiae nobis, tenetur ut nemo...
+            </p>
+            <button class="primary-button breather light-text mt-2 mb-1">
+              READ MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <hr />
+    <footer class="main-footer flex flex-column">
+      <div class="footer-left flex justify-center">
+        <div class="footer-logo flex justify-center mt-max">
+          <img loading="lazy" src="assets/svg/logo.svg" alt="" />
+        </div>
+        <div class="footer-end-container">
+          <div class="footer-end mt-max">
+            <h4 class="breather light-text text-center">
+              2021 ALLIED HEALTHCARE
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-lists flex breather-max">
+          <ul class="footer-list-1 mb-1">
+            <li class="p-top">Book Service</li>
+            <li class="p-top">Book Consultation</li>
+            <li class="p-top">Find a Doctor</li>
+            <li class="p-top">Patient Portal</li>
+          </ul>
+          <ul class="footer-list-2 mt-2">
+            <li class="p-top">
+              548 Mc Arthur Highway, Malanday, Valenzuela City
+            </li>
+            <li class="p-top">(02) - 8366 - 0000 to 05</li>
+            <li class="p-top">info@acemcvalenzuela.com</li>
+            <li class="p-top">ACEMCValenzuelaOfficial</li>
+          </ul>
+        </div>
+        <div class="footer-end-2">
+          <div class="footer-navigator">
+            <ul
+              class="flex justify-center breather light-text"
+              style="list-style: none"
+            >
+              <li class="mr-1">ABOUT US</li>
+              <li class="mr-1">CONTACT US</li>
+              <li class="mr-1">SERVICES</li>
+              <li class="mr-1">NEWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="last-footer flex mini-breather light-text">
+      <div class="trademark text-center">
+        <h3 style="font-weight: 300">@2021 ALLIED HEALTHCARE</h3>
+      </div>
+      <div class="nav-links">
+        <ul class="flex justify-center">
+          <li>ABOUT US</li>
+          <li>CONTACT US</li>
+          <li>SERVICES</li>
+          <li>NEWS</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- End Foot -->
+
+    <!-- End of Footer -->
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/owlcarousel/owl.carousel.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

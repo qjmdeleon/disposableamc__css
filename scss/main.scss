@@ -1,0 +1,769 @@
+/* Font Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+/* Color Profile */
+
+$main_color: #166534;
+$secondary_color: #22c55e;
+
+.primary-color {
+  background: $main_color;
+}
+
+.secondary-color {
+  background: $secondary_color;
+}
+
+.dark-text {
+  color: black;
+}
+
+.light-text {
+  color: #fff;
+}
+/* Resets */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+p,
+li {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+button {
+  display: inline-block;
+}
+
+/* Text Sizes */
+.mini-font {
+  font-size: 0.8rem;
+}
+
+.small-font {
+  font-size: 1.2rem;
+}
+
+.big-font {
+  font-size: 2rem;
+}
+
+.semi-large-font {
+  font-size: 3.5rem;
+}
+
+.large-font {
+  font-size: 5rem;
+}
+
+.heavy {
+  font-weight: 600;
+}
+
+/* All Sorts of Padding */
+.padding-nav {
+  padding: 0.75rem;
+}
+
+.padding-section {
+  padding: 1.2rem;
+}
+
+.p-top {
+  padding-top: 1rem;
+}
+
+.p-top-max {
+  padding-top: 10rem;
+}
+
+.p-right {
+  padding-right: 2rem;
+}
+
+.p-left {
+  padding-left: 1rem;
+}
+
+.p-bottom {
+  padding-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-max {
+  margin-top: 4rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+/* Button Types */
+
+.primary-button {
+  background: $secondary_color;
+  font-family: "Poppins";
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: white;
+  font-family: "Poppins";
+  border: 1px solid $secondary_color;
+  cursor: pointer;
+}
+
+/* Flex base Properties */
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-2 {
+  flex: 2 1 0%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Image */
+
+.small-resize {
+  width: 150px;
+  height: 100px;
+}
+
+/* Containing Widths */
+
+.social-links {
+  display: none;
+}
+
+.top-nav-search {
+  display: none;
+}
+
+.top-nav-1 {
+  flex-direction: column;
+  h4 {
+    font-weight: 300;
+  }
+}
+
+.breather {
+  padding: 1rem;
+}
+
+.mini-breather {
+  padding: 0.5rem;
+}
+
+.breather-max {
+  padding: 3rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.card-image-1 {
+  background: url("/dist/assets/img/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.card-image-2 {
+  background: url("/dist/assets/img/olga-guryanova-tMFeatBSS4s-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.card-image-3 {
+  background: url("/dist/assets/img/lucas-vasques-9vnACvX2748-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.card-image-4 {
+  background: url("/dist/assets/img/martha-dominguez-de-gouveia-nMyM7fxpokE-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+.card-content {
+  background: #22c55e;
+}
+
+.card-item {
+  border: 1px solid white;
+}
+
+.text-container-main {
+  padding: 8rem 1rem 1rem 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  p {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+}
+
+.section-1 {
+  height: 100%;
+}
+
+/* Slider Fix */
+.slider-item {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+}
+
+.slider-items {
+  height: 100%;
+}
+
+.owl-carousel {
+  z-index: -1;
+}
+
+/* Section-2 */
+.section-2 {
+  h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+/* Section-3 Banner */
+.section-3-banner {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+}
+
+/* Section-4 */
+
+.section-4-img-content {
+  background: url("/dist/assets/img/storya.jpg") no-repeat center center/cover;
+  height: 300px;
+}
+
+.section-4-img-content-2 {
+  background: url("/dist/assets/img/new.jpg") no-repeat center center/cover;
+  height: 300px;
+}
+
+/* Section-5 */
+.section-5-cards {
+  .card-item {
+    border: 2px solid whitesmoke;
+    border-radius: 0.5rem;
+  }
+
+  .card-img-1 {
+    background-image: url("/dist/assets/img/mri.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-img-2 {
+    background-image: url("/dist/assets/img/ct-scan.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .card-img-3 {
+    background-image: url("/dist/assets/img/swab-test.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+/* Section 6 */
+.section-6-banner-1 {
+  background: $secondary_color;
+}
+
+/* Section 7 */
+.section-7-card-img-1 {
+  background-image: url("/dist/assets/img/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-7-card-img-2 {
+  background-image: url("/dist/assets/img/macau-photo-agency-Rv3QXYUwiWw-unsplash.jpg");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-7-card-img-3 {
+  background-image: url("/dist/assets/img/owen-beard-DK8jXx1B-1c-unsplash.jpg");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-7 {
+  .card-item {
+    border: 2px solid whitesmoke;
+    border-radius: 0;
+  }
+}
+
+/* Main Footer */
+.main-footer {
+  flex: 1 2 0%;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.footer-end {
+  background: $main_color;
+}
+
+.footer-end-2 {
+  background: $secondary_color;
+}
+
+/* For Burger Nav */
+.main-nav-items {
+  display: none;
+}
+
+.nav-button {
+  border-radius: 1rem;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.main-nav-burger {
+  z-index: 5;
+}
+
+.last-footer {
+  display: none;
+}
+
+.footer-left {
+  flex-direction: column;
+}
+
+.footer-right {
+  .footer-lists {
+    flex-direction: column;
+  }
+}
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+// Responsive Breakpoints
+
+@media screen and (min-width: 960px) {
+  .main-nav-burger {
+    display: none;
+  }
+
+  .main-nav-items {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-container-main {
+    padding: 7rem 5rem 2rem 6rem;
+  }
+
+  // Section 1
+  .section-1 {
+    p {
+    }
+  }
+
+  // Section 2
+
+  .section-2 {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .section-2-cards {
+    flex-direction: row;
+  }
+
+  // Section 4
+  .section-4-pair {
+    display: flex;
+  }
+
+  .section-4-img-content {
+    width: 100%;
+  }
+
+  .section-4-img-content-2 {
+    width: 100%;
+    order: -1;
+  }
+
+  // Section 6
+  .patient-list {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .padding-nav {
+    padding: 0.3rem;
+  }
+
+  .top-nav-1 {
+    flex-direction: row;
+  }
+
+  .top-nav-text {
+    flex-direction: row;
+
+    .text-item-1 {
+      margin-right: 1rem;
+      h4 {
+        font-weight: 300;
+      }
+    }
+
+    .text-item-2 {
+      margin-left: 1rem;
+      h4 {
+        font-weight: 300;
+      }
+    }
+  }
+
+  .social-links {
+    margin-top: 0.5rem;
+    margin-right: 1.7rem;
+    display: flex;
+  }
+
+  .top-nav-search {
+    display: flex;
+    input {
+      background: none;
+      border: none;
+      border-left: 1px solid $secondary_color;
+      padding-left: 1rem;
+      color: white;
+    }
+  }
+
+  ::placeholder {
+    color: $secondary_color;
+  }
+
+  .main-nav {
+    padding: 0;
+    ul {
+      li {
+        font-size: 0.8rem;
+        margin-right: 5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      button {
+        margin-top: -0.5rem;
+      }
+    }
+  }
+
+  .main-nav-logo {
+    padding-left: 5rem;
+  }
+
+  .text-container-main {
+    padding-top: 10rem;
+    padding-left: 19rem;
+  }
+
+  .slider-item {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+  }
+
+  .section-2-header {
+    text-align: start;
+    padding-left: 1rem;
+  }
+
+  .section-2-cards {
+    padding: 1rem;
+  }
+
+  // Section 3
+  .section-3 {
+    margin: 7rem 0;
+
+    .text-container-main {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  // Section 4
+  .section-4-pair {
+    margin: 0 5rem 5rem 5rem;
+    display: flex;
+
+    .section-4-text-content {
+      flex: 1 1 0%;
+      .first-pair-text {
+        margin: 2rem 0;
+        padding: 0 18rem 0 0;
+      }
+
+      .first-pair-button {
+        border-radius: 0.9rem;
+        width: 15%;
+        font-size: 0.8rem;
+      }
+    }
+
+    .section-4-img-content {
+      width: 45%;
+      height: 450px;
+    }
+
+    .section-4-img-content-2 {
+      width: 60%;
+      height: 450px;
+    }
+  }
+
+  .second-pair-text {
+    margin: 2rem 0;
+    padding: 0 0 0 8rem;
+  }
+
+  .second-pair-button {
+    border-radius: 0.9rem;
+    width: 22%;
+    font-size: 0.8rem;
+  }
+
+  // Section 5
+
+  .section-5 {
+    padding: 0 5rem;
+    margin: 7rem 0;
+  }
+
+  .section-5-cards {
+    .card-item {
+      border: 1px solid whitesmoke;
+    }
+  }
+
+  // Section 7
+  .section-7 {
+    .section-7-cards {
+      padding: 0 5rem;
+    }
+  }
+
+  // Footer
+
+  .main-footer {
+    flex-direction: row;
+
+    .footer-left {
+      flex: 1 1 0%;
+      display: flex;
+      flex-direction: column;
+
+      .footer-logo {
+        margin-top: 1rem;
+      }
+
+      .footer-end-container {
+        margin-top: 13.1rem;
+      }
+      img {
+        width: 40%;
+      }
+    }
+
+    .footer-right {
+      background: #f5f5f5;
+      margin: 0;
+      flex: 1.5 1.5 0%;
+
+      .footer-lists {
+        flex-direction: row;
+      }
+
+      .footer-list-1 {
+        flex: 1 1 0%;
+      }
+
+      .footer-list-2 {
+        flex: 1.5 1.5 0%;
+        margin-top: 0;
+      }
+    }
+  }
+
+  .last-footer {
+    display: flex;
+    background: $secondary_color;
+    .trademark {
+      flex: 1 1 0%;
+      h3 {
+        font-size: 0.9rem;
+      }
+    }
+    .nav-links {
+      flex: 1 1 0%;
+      ul {
+        list-style: none;
+        li {
+          margin-right: 5rem;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  .footer-end-container {
+    display: none;
+  }
+
+  .footer-end-2 {
+    display: none;
+  }
+}
